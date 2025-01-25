@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+@font-face{
+    font-family: ranger;
+    src: url(classica_3/Classica-Book.ttf);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(#b3cccc, #c2d6d6, #d1e0e0, #c2d6d6, #b3cccc);
+}
+header h1{
+    font-size: 3rem;
+    font-family: ranger;
+    color: #000033;
+    text-shadow: 10px 10px 5px #ff3333;
+    text-decoration-line: line-through;
+}
+span{
+    font-size: 10px;
+}
+.main-box{
+    width: 70%;
+    background: linear-gradient(#b3cccc, #c2d6d6, #d1e0e0, #c2d6d6, #b3cccc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.box{
+    margin-top: 250px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+}
+
+.settings{
+    width: calc(100% - 70%);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding-left: 10px;
+    padding-top: 15px;
+    box-shadow: 0px -10px 10px grey;
+}
+.color-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.color-list button{
+    width: 2rem;
+    height: 2rem;
+    border: ;
+}
+#flex{
+    display: flex;
+    align-items: center;
+}
+#flex button{
+    width: 2rem;
+    height: 2rem;
+}
+#Silver{
+    background-color: #C0C0C0;
+}
+#Gray{
+    background-color: #808080;
+}
+#Black{
+    background-color: #000000;
+}
+#Red{
+    background-color: Red;
+}
+#Maroon{
+    background-color: Maroon;
+}
+#Yellow{
+    background-color: #FFFF00;
+}
+#Olive{
+    background-color: Olive;
+}
+#Lime{
+    background-color: Lime;
+}
+#Green{
+    background-color: Green;
+}
+#Aqua{
+    background-color: Aqua;
+}
+#Teal{
+    background-color: Teal;
+}
+#Blue{
+    background-color: #0000FF;
+}
+#Navy{
+    background-color: Navy;
+}
+#Fuchsia{
+    background-color: Fuchsia;
+}
+#Purple{
+    background-color: Purple;
+}
+#IndianRed{
+    background-color: IndianRed;
+}
+#LightCoral{
+    background-color: LightCoral;
+}
+#Salmon{
+    background-color: Salmon;
+}
+#DarkSalmon{
+    background-color: DarkSalmon;
+}
+#LightSalmon{
+    background-color: LightSalmon;
+}
