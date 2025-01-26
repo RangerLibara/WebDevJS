@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>ACTIVITY 2</h1>
+        <h6>By: Libara Ranger</h6>
+    </div>
+
+    <script>
+        document.body.style.backgroundColor = "pink";
+
+
+        let words = ["DESIRE", "Reserve", "PreFErence", "FASTEST", "highest", "enduRE", "fatter", "most tangled", "worst", "least"];
+    
+
+        console.log(checkIfSuperlative());
+
+        function checkIfSuperlative(){
+            for(let word of words){
+
+                let wordss = word.toLowerCase();
+                if(wordss.substr(-3,3) == "est" || wordss.substr(0,4) == "most" || wordss.substr(-2,2) == "st"){
+                    console.log("The word \""+ wordss.toLowerCase()+"\" is superlative.")
+                }else{
+                    console.log("The word \""+wordss.toLowerCase()+"\" is NOT superlative.")
+                }
+            }
+        }
+    </script>
+</body>
+</html>
