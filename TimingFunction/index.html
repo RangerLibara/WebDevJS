@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Activity 5</title>
+</head>
+<body>
+    <div class="container-box">
+        <div id="startBox">
+                <h1>Start Quiz</h1>
+                    <div class="center">
+                        <button id="btnstart" onclick="start()">Start</button>
+                    </div>
+            </div>
+    </div>
+    
+    <div class="center">
+        <div class="timer">
+            <h1>Timer: </h1>
+            <h1><span id="mins"></span>mins</h1>
+            <h1><span id="sec"></span>sec</h1>
+        </div>
+        <h1>Score: <span id="score"></span></h1>
+        <h1 id="over"></h1>
+    </div>
+    <br>
+    <hr>
+    <div id="quiz">
+        <h1>Level: <span id="lvlquiz"></span></h1>
+        <div class="center">
+            <h1 id="num1"></h1>
+            <h1 id="op"></h1>
+            <h1 id="num2"></h1>
+        </div>
+        <div class="center" id="input-div">
+            <input type="number" id="inputNum" required>
+        </div>
+        <br>
+        <div class="center">
+            <button id="enter">Enter</button>
+        </div>
+        <br>
+        <div class="center">
+            <button id="status"></button>
+        </div>
+        <div class="center" id="btnSelect">
+            <button id="nums1">1</button>
+            <button id="nums2">1</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

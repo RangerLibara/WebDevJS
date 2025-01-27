@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: lemonchiffon;
+    overflow-y: hidden;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+#input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+#startBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    z-index: 1000;
+    background-color: darkolivegreen;
+    transition: all 3s ease-in;
+}
+#btnstart{
+    padding: 10px;
+    background-color: lightblue;
+}
+#inputNum{
+    height: 1.5rem;
+    padding: 3px;
+}
+.timer{
+    display: flex;
+    column-gap:5px;
+}
+.container-box{
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    
+    
+    /* background-color: transparent;
+    backdrop-filter: blur(15px); */
+}
+#nums1{
+    padding: 10px;
+    background-color: lightblue;
+}
+#nums2{
+    padding: 10px;
+    background-color: lightblue;
+}
+#enter{
+    padding: 10px;
+    background-color: lightblue;
+}
+#statuss{
+    padding: 10px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 3px;
+}
+#statusss{
+    padding: 10px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 3px;
+}
+#stats{
+    padding: 0px;
+}
